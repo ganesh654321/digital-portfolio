@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="icon" href="pic/dgayary-9c6c88c8-b397-4abb-ba56-60846a0159e5.jpg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            background: linear-gradient(135deg, #b60d0d, #a51b1b);
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .profile-picture {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+            margin-top: 10px;
+        }
+
+        .header-content h1 {
+            font-size: 2.2rem;
+            font-weight: bold;
+            margin: 10px 0 5px;
+        }
+
+        nav {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 0.8rem 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #a01616;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #9c1010;
+        }
+
+        .section-content {
+            background-color: #111;
+            padding: 1.5rem;
+            margin: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+            text-align: justify;
+        }
+
+        .section-content h2 {
+            color: #a81313;
+            border-bottom: 2px solid #a81313;
+            padding-bottom: 5px;
+        }
+
+        .download-button, .resume-button {
+            background-color: #a81313;
+            color: #fff;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 25px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+
+        .download-button:hover, .resume-button:hover {
+            background-color: #a81313;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #222;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+
+        span {
+            font-weight: bold;
+            color: #a81313;
+        }
+
+        @media (max-width: 600px) {
+            .profile-picture {
+                width: 80px;
+                height: 80px;
+            }
+
+            .header-content h1 {
+                font-size: 1.8rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .section-content {
+                padding: 1rem;
+                margin: 0.8rem;
+            }
+
+            .download-button, .resume-button {
+                padding: 0.6rem 1.2rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="e499bd41-18eb-49cf-a284-829d2a503ab6.jpg" alt="Your Profile Picture" class="profile-picture">
+            <h1>Ganesha moorthy N</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section-content">
+        <h2>About Me</h2>
+        <p>I'm a web development expert who is passionate about creating dynamic and user-friendly websites. I'm driven by the desire to craft high-performance web applications that enhance user experience and provide seamless digital solutions. I'm also committed to helping others learn more about web technologies, best practices, and how to build secure and scalable websites.</p>
+    </section>
+
+    <section id="education" class="section-content">
+        <h2>Education</h2>
+        <p>H.H. THE RAJA'S COLLEGE - B.Computer Application Student</p>
+    </section>
+
+    <section id="skills" class="section-content">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+           <li>Cloud computing</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="section-content">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="#">commerce website</a></li>
+            <li><a href="#">optimal ai</a></li>
+            <li><a href="#">Fun Chatbot</a></li>
+            <li><a href="#">College Portal</a></li>
+        </ul>
+    </section>
+
+    <section id="resume" class="section-content">
+        <center>
+            <a href="#" target="_blank" class="resume-button">Resume</a><br>
+            <a href="#" target="_blank" class="download-button">Download CV</a>
+        </center>
+    </section>
+
+    <footer>  
+        <p>&copy; 2025 Ganesha moorthy N</p>
+    </footer>
+</body>
+</html>
